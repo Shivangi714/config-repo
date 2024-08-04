@@ -60,9 +60,13 @@ management:
       exposure:
         include: "*"
   endpoint:
+    shutdown:
+      enabled: true
+  endpoint:
     health:
       show-details: always
   health:
     circuitbreakers:
       enabled: true
+
 
